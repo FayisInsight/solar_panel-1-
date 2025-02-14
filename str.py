@@ -12,7 +12,7 @@ model = joblib.load('LGBM.pkl')
 df = pd.read_csv("solarpowergeneration.csv")
 
 # Streamlit app
-st.title('🌞 Solar Power Generation Predictor')
+st.title('Solar Power Generation Predictor')
 
 st.sidebar.header('Input Parameters')
 
