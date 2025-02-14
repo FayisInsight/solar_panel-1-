@@ -135,10 +135,3 @@ importance_df = pd.DataFrame({
 plt.figure(figsize=(10, 6))
 sns.barplot(x='Importance', y='Feature', data=importance_df)
 st.pyplot(plt)
-
-# About section
-st.markdown("""
-### About This App
-This app predicts solar power generation based on environmental parameters using a LightGBM machine learning model.
-The model was trained on historical solar power generation data and achieves an R² score of 0.88.
-""")
